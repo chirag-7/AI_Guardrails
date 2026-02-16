@@ -1,0 +1,24 @@
+models:
+  - type: main
+    engine: openai
+    model: gpt-3.5-turbo-instruct
+
+# --- LAYER 1, 2, 4 CONFIGURATION ---
+rails:
+  # Layer 1: Input Rail (Jailbreak Detection)
+  input:
+    flows:
+      - check jailbreak
+
+  # Layer 4: Output Rail (Fact Checking / Hallucination)
+  output:
+    flows:
+      - self check facts
+
+# --- LAYER 3 CONFIGURATION (Tool Definitions) ---
+# This registers the tools for the agent to use
+instructions:
+  - type: general
+    content: |
+      You are a helpful assistant. You have access to tools to look up weather
+      and time. You must be accurate and stay on topic.
