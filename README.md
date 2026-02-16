@@ -154,11 +154,3 @@ models:
 
 The same Colang rail definitions are used regardless of which LLM provider (OpenAI or NIM) is selected.
 
-## Learn More
-
-- [NeMo Guardrails Documentation](https://docs.nvidia.com/nemo/guardrails/index.html)
-- [NeMo Guardrails Configuration Guide for NIM](https://docs.nvidia.com/nemo/guardrails/latest/user-guides/configuration-guide.html#nim-for-llms)
-- [NeMo Guardrails GitHub Repository](https://github.com/NVIDIA/NeMo-Guardrails)
-- [NVIDIA Developer Resources](https://developer.nvidia.com/nemo-guardrails)
-- [Meta Llama 3.1 Deployment on NIM](https://build.nvidia.com/meta/llama-3_1-8b-instruct/deploy)
-
