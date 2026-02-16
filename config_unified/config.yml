@@ -5,6 +5,10 @@ models:
 
 # --- LAYER 1, 2, 4 CONFIGURATION ---
 rails:
+  config:
+    kb:
+      folder: "kb"
+rails:
   # Layer 1: Input Rail (Jailbreak Detection)
   input:
     flows:
