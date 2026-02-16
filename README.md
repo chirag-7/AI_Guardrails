@@ -42,7 +42,7 @@ This repository contains several example implementations of NeMo Guardrails:
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/Hello-NeMo-Guardrails.git
+   git clone https://github.com/chirag-7/Hello-NeMo-Guardrails.git
    cd Hello-NeMo-Guardrails
    ```
 
