@@ -30,7 +30,7 @@ This repository implements a complete security pipeline consisting of four disti
 
 1.  Clone this repository:
     ```bash
-    git clone [https://github.com/chirag-7/Hello-NeMo-Guardrails.git](https://github.com/chirag-7/Hello-NeMo-Guardrails.git)
+    git clone https://github.com/chirag-7/Hello-NeMo-Guardrails.git](https://github.com/chirag-7/Hello-NeMo-Guardrails.git
     cd Hello-NeMo-Guardrails
     ```
 
